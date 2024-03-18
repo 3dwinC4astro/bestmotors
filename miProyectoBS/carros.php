@@ -305,7 +305,7 @@ mysqli_close($conexion);
         location.reload();
       }
     };
-    xhttp.open("POST", "/miProyectoBS/modificarCarro.php", true); 
+    xhttp.open("POST", "modificarCarro.php", true); 
     xhttp.send(formData);
   });
 </script>
@@ -330,7 +330,7 @@ document.getElementById("agregarCarroBtn").addEventListener("click", function() 
         }
     };
 
-    xhttp.open("POST", "/miProyectoBS/agregarCarro.php", true);
+    xhttp.open("POST", "agregarCarro.php", true);
     xhttp.send(formData);
 });
 </script>
