@@ -43,7 +43,7 @@ if ($stmt) {
   <input class="form-control me-2" style="width: 250px;" type="search" placeholder="Nombre o Ciudad" aria-label="Search" name="busqueda">
   <button class="btn btn-outline-success me-2" type="submit">Buscar</button>
   <button type="button" class="btn btn-outline-success me-2" data-bs-toggle="modal" data-bs-target="#exampleModal1">Agregar</button>
-  <button class="btn btn-outline-success" type="button" style="padding-left: 8px; padding-right: 8px; margin-right: 8px;" onclick="window.location.href='/miProyectoBS/carros.php'">Carros</button>
+  <button class="btn btn-outline-success" type="button" style="padding-left: 8px; padding-right: 8px; margin-right: 8px;" onclick="window.location.href='carros.php'">Carros</button>
  
   <?php
 $total_concesionarios = 0;
