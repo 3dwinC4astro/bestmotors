@@ -43,7 +43,7 @@ if ($stmt) {
                     location.reload();
                 }
             };
-            xhttp.open("GET", "/miProyectoBS/eliminarCarro.php?placa=" + placa, true);
+            xhttp.open("GET", "eliminarCarro.php?placa=" + placa, true);
             xhttp.send();
         }
     }
