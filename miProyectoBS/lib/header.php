@@ -32,7 +32,7 @@
 <div class="card text-center" style="background-color: #17A589; color: white;">
    
         <div class="card-header text-start" style="font-size: 30px; color: white; transition: font-size 0.3s, color 0.3s;">
-        <a href="http://localhost/miProyectoBS/index.php">
+        <a href="index.php">
         <span class="circle"  id="circleLink">BM</span> 
         </a>
     </div>
