@@ -33,7 +33,7 @@ if ($stmt) {
                     location.reload();
                 }
             };
-            xhttp.open("GET", "/miProyectoBS/eliminarConcesionario.php?nombre=" + nombre, true);
+            xhttp.open("GET", "eliminarConcesionario.php?nombre=" + nombre, true);
             xhttp.send();
         }
     }
@@ -202,7 +202,7 @@ mysqli_close($conexion);
         location.reload();
       }
     };
-    xhttp.open("POST", "/miProyectoBS/modificarConcesionario.php", true); 
+    xhttp.open("POST", "modificarConcesionario.php", true); 
     xhttp.send(formData);
   });
 </script>
@@ -216,7 +216,7 @@ mysqli_close($conexion);
                 location.reload();
             }
         };
-        xhttp.open("POST", "/miProyectoBS/agregarConcesionario.php", true);
+        xhttp.open("POST", "agregarConcesionario.php", true);
         xhttp.send(formData);
     });
 </script>
